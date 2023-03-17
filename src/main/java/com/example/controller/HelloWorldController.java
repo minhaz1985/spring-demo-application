@@ -7,7 +7,7 @@ public class HelloWorldController {
         @RequestMapping("/")
         public String hello()
         {
-            System.out.println("hello world");
+            System.out.println("hello world!");
             return "Hello World!";
         }
     }
